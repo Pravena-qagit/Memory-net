@@ -4,7 +4,7 @@ import ast
 
 REQUIRED_COLUMNS = ["server_description", "dimm_ranks", "server_dimm_ranks"]
 
-# Load your DataFrame
+# Load your DataFrame here
 df = pd.read_csv("08012025_cisco_db_import.csv")
 df = df.dropna(subset=REQUIRED_COLUMNS)
 
@@ -68,3 +68,4 @@ def test_sorted_dimm_ranks_mismatches():
     assert not mismatch_rows, (
         f"{len(mismatch_rows)} mismatched rows found. See 'sorted_dimm_mismatches.csv' for details."
     )
+   
