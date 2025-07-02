@@ -4,4 +4,4 @@ Cisco,UCS-MR-1X082RY-A,Cisco UCS C220 M3   Rack Server,memory,2.0,4.0,8D3ER24160
 Cisco,UCS-MR-X64G2RW,Cisco UCS C220/C240/B200 M5  Addendum,memory,2.0,4.0,64D4ER24320012S1,2Rx4,"['2Rx4','1Rx4','1Rx4']",1RX4,,
 Cisco,UCS-MR-X16G1RT-H,Cisco UCS C220/C240/B200 M5  Addendum,memory,1.0,4.0,16D4ER14293312S1,1Rx4,"['2Rx4','1Rx4','2Rx4']",2RX4,,
 Cisco,UCS-SD240GM1X-EV,Cisco UCS C480 ML M5 Purpose Built Server for Deep Learning,ssd,,,S240SATA25,,['2Rx4'],,,1RX4
-Cisco,UCSX-MRX96G2RF3,Cisco UCS X215c M8 Compute Node,memory,2.0,4.0,96D5ER24560011S1,2Rx4,"['2Rx4', '1Rx4', '8Rx4', '1Rx8', '4Rx4', '5Rx5']",,5RX5,
+Cisco,,UCSX-MRX96G2RF3,Cisco UCS X215c M8 Compute Node,memory,2.0,4.0,96D5ER24560011S1,2Rx4,"['2Rx4', '1Rx4', '8Rx4', '1Rx8', '4Rx4', '5Rx5']",,5RX5,

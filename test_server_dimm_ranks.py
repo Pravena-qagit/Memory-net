@@ -3,7 +3,7 @@ import pandas as pd
 import ast
 
 input_csv = "08012025_cisco_db_import (2).csv"
-# This file contains the test cases for validating DIMM ranks in server configurations.
+# This file contains the test cases for validating DIMM ranks in server configuration.
 def normalize(item):
     return item.strip().upper()
 
