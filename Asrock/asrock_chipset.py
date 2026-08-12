@@ -7,7 +7,7 @@ import atexit
 # -------------------------------------------------
 # Input CSV
 # -------------------------------------------------
-input_csv = "update_asrock_dimm_ranks.csv"
+input_csv = "asrock_db_import.csv"
 
 full_output_rows = []
 

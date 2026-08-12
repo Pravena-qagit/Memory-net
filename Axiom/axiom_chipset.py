@@ -7,7 +7,7 @@ import atexit
 # -------------------------------------------------
 # Input CSV
 # -------------------------------------------------
-input_csv = "06052026_axiom_db_import.csv"
+input_csv = "axiom_db_import.csv"
 
 full_output_rows = []
 

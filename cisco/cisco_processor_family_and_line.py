@@ -7,8 +7,8 @@ import ast
 # =====================================================
 print("Loading files...")
 cisco_df = pd.read_csv("cisco_db_import.csv", low_memory=False)
-intel_df = pd.read_csv("19052025_intel_processors.csv", low_memory=False)
-amd_df = pd.read_csv("amd_processor_import_db (3).csv", low_memory=False)
+intel_df = pd.read_csv("12022026_intel_db_import.csv", low_memory=False)
+amd_df = pd.read_csv("09022026_amd_db_import.csv", low_memory=False)
 
 # =====================================================
 # 2️⃣ Intel normalization
@@ -175,6 +175,6 @@ def match_row(row):
 # =====================================================
 # 7️⃣ Save output
 # =====================================================
-output_file = "cisco_remerge_output.csv"
+output_file = "cisco_processorfamily_line_validation.csv"
 cisco_df.to_csv(output_file, index=False)
 print(f"✅ Saved {output_file}")

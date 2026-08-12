@@ -3,7 +3,7 @@ import pandas as pd
 import ast
 import atexit
 # load csv file
-input_csv = "24042026_asrock_dimm_ranks.csv"
+input_csv = "asrock_db_import.csv"
 # Lists to collect issue and verified rows
 issue_rows = []
 verified_rows = []

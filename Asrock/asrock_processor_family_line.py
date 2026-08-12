@@ -144,9 +144,9 @@ def clean_list(values):
 
 print("Loading files...")
 
-asrock_df = pd.read_csv("24042026_asrock_dimm_ranks.csv", low_memory=False)
-intel_df = pd.read_csv("12022026_intel_db_import.csv", low_memory=False)
-amd_df = pd.read_csv("09022026_amd_db_import (1).csv", low_memory=False)
+asrock_df = pd.read_csv("asrock_db_import.csv", low_memory=False)
+intel_df = pd.read_csv("intel_db_import.csv", low_memory=False)
+amd_df = pd.read_csv("amd_db_import.csv", low_memory=False)
 
 
 # ==================================================

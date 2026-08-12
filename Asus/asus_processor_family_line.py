@@ -300,17 +300,17 @@ def get_asus_status(row):
 # ==================================================
 
 asus_df = pd.read_csv(
-    "29042026_asus_db_import.csv",
+    "asus_db_import.csv",
     low_memory=False
 )
 
 intel_df = pd.read_csv(
-    "12022026_intel_db_import.csv",
+    "intel_db_import.csv",
     low_memory=False
 )
 
 amd_df = pd.read_csv(
-    "09022026_amd_db_import.csv",
+    "amd_db_import.csv",
     low_memory=False
 )
 

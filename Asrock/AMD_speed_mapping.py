@@ -79,8 +79,8 @@ def get_clean_processor_list(x):
 
 print("Loading files...")
 
-asrock_df = pd.read_csv("02032026_asrock_db_import (1).csv", low_memory=False)
-amd_df = pd.read_csv("09022026_amd_db_import (1).csv", low_memory=False)
+asrock_df = pd.read_csv("asrock_db_import.csv", low_memory=False)
+amd_df = pd.read_csv("amd_db_import (1).csv", low_memory=False)
 
 
 # ==================================================

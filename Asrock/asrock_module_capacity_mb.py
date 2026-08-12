@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-input_csv = "24042026_asrock_dimm_ranks.csv"
+input_csv = "asrock_db_import.csv"
 output_csv = "module_capacity_mb_report.csv"
 
 df = pd.read_csv(input_csv)
